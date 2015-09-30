@@ -1,0 +1,23 @@
+{
+  "name": "node-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericmdantas/node-playground.git"
+  },
+  "author": "Eric Mendes Dantas <ericdantas0@gmail.com> (https://github.com/ericmdantas)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericmdantas/node-playground/issues"
+  },
+  "homepage": "https://github.com/ericmdantas/node-playground#readme",
+  "dependencies": {
+    "babel": "^5.8.23"
+  }
+}
