@@ -1,19 +1,3 @@
-async function getSomethingBig() {
-  console.log('running');
+import {Something} from './something';
 
-  var x = await pIsForPromise();
-
-  console.log('done');
-}
-
-function pIsForPromise() {
-  return new Promise((res) => {
-    setTimeout(() => {
-      console.log('almost-there')
-
-      res('x');
-    }, 1000);
-  })
-}
-
-getSomethingBig();
+console.log(new Something().name);
