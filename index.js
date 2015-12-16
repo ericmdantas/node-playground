@@ -1,3 +1,5 @@
-import {Something} from './something';
+let x = async () => {
+  console.log('yo')
+}
 
-console.log(new Something().name);
+x();
