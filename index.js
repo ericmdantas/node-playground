@@ -1,5 +1,5 @@
-let x = async () => {
-  console.log('yo')
-}
+import {Something} from './something';
 
-x();
+let _s = new Something();
+
+_s.doing();
