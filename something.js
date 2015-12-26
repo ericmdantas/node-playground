@@ -10,4 +10,8 @@ export class Something {
 
     console.log(x);
   }
+
+  async yo() {
+    return await Promise.resolve(123456789);
+  }
 }
