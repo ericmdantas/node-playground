@@ -1,5 +1,3 @@
-import {Something} from './something';
+"use strict";
 
-let _s = new Something();
-
-console.log(_s.yo());
+console.log('yo!');
