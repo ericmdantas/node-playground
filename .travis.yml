@@ -2,7 +2,7 @@ language: node_js
 
 node_js: "stable"
 
-script: npm run coverage
+script: npm t
 
 after_success:
     - npm run travis-after-success
