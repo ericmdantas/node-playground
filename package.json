@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "ava **/*_test.js",
-    "cov-local": "nyc npm t",
+    "cov": "nyc npm t",
     "travis-after-success": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
   },
   "repository": {
