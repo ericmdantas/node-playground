@@ -1,3 +1,7 @@
 "use strict";
 
-console.log('yo!');
+exports.Something = class Something {
+  doIt() {
+    console.log('yo!');
+  }
+}
